@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import NavItem from "./NavItem";
 
 function NavBar() {
-    const items = ["About", "Service"]
+    const items = ["Home", "About", "Skills", "Services"]
     const navItems = items.map(item => <NavItem key={item} name={item}/>)
     return (
         <header>

@@ -9,5 +9,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="e07e094ec1" level="application" />
+    <orderEntry type="library" name="@coreui/coreui" level="application" />
   </component>
 </module>
