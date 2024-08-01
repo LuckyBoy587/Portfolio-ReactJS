@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5em;
+}
+
+header p {
+    flex-grow: 20;
+    margin: auto 0;
+    align-items: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.nav-item {
+    flex-grow: 1;
+    margin: auto 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: hsl(249, 50%, 60%);
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}

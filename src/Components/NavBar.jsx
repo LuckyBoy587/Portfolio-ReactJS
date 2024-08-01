@@ -1,13 +1,15 @@
 import PropTypes from "prop-types";
 import NavItem from "./NavItem";
+import "./NavBar.css"
 
 function NavBar() {
-    const items = ["Home", "About", "Skills", "Services"]
-    const navItems = items.map(item => <NavItem key={item} name={item}/>)
     return (
         <header>
             <p>Kowshik</p>
-            {navItems}
+            <NavItem name={"Home"}/>
+            <NavItem name={"About"}/>
+            <NavItem name={"Skills"}/>
+            <NavItem name={"Services"}/>
         </header>
     );
 }
