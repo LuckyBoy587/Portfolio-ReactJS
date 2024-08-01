@@ -1,6 +1,6 @@
 import Icon from "./Icon";
 
-const HomePage = () => {
+function HomePage() {
     const text = "Contact Me"
     const hyperLinks = {
         "github": "https://github.com/LuckyBoy587",
@@ -14,9 +14,9 @@ const HomePage = () => {
                 {Object.keys(hyperLinks).map(name => <Icon name={name} url={hyperLinks[name]}/>)}
             </div>
             <div className="personal-info-box">
-                <p className="hi-text">Hi, I'm Kowshik</p>
-                <p className="profession-text">Software Engineer</p>
-                <p className="description-text">Passionate React.js developer crafting dynamic, high-performance web
+                <p className="hi-text text">Hi, I'm Kowshik</p>
+                <p className="profession-text text">Software Engineer</p>
+                <p className="description-text text">Passionate React.js developer crafting dynamic, high-performance web
                     applications.</p>
                 <button className="contact-button">
                     <a href={mailURL} target={"_blank"} rel="noreferrer">
@@ -27,7 +27,7 @@ const HomePage = () => {
             </div>
             <div className="empty"></div>
             <div className="profile-pic-box">
-                <img src={"/Assets/profile.jpg"} alt={"Profile"}/>
+                <img src={"/Assets/image.png"} alt={"Profile"}/>
             </div>
         </div>
     )

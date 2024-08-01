@@ -3,9 +3,9 @@ import HomePage from "./Components/HomePage";
 
 function App() {
     return (
-        <div className="home-page">
+        <div className="app">
             <NavBar/>
-            <HomePage/>
+            <HomePage />
         </div>
     );
 }
